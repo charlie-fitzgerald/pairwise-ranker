@@ -1,8 +1,12 @@
+import Navbar from "./Navbar";
+import Card from "./Card";
+
 function App() {  
 
   return (
     <>
-      <h1>Stuff goes here</h1>
+      <Navbar />
+      <Card />
     </>
   )
 }
