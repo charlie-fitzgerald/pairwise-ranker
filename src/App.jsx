@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Card from "./Card";
+import Button from "./Button";
 
 function App() {  
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Card />
+      <Button />
     </>
   )
 }
