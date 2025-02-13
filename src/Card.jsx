@@ -1,14 +1,12 @@
+import profilePic from './assets/sloth.png'
 
 function Card() {
     return (
         <>
             <div className="card">
-                <h2>List Title</h2>
-                <ul>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                </ul>
+                <img className="card-image" src={profilePic} alt="profile picture" />
+                <h2 className="card-title">List Title</h2>
+                <p className="card-text">List items will go here</p>
             </div>
         </>
     );
