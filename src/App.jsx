@@ -1,16 +1,16 @@
-import Navbar from "./Navbar";
-import Card from "./Card";
-import Button from "./Button";
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
 
-function App() {  
-
+function App() {
   return (
-    <>
-      <Navbar />
-      <Card />
-      <Button />
-    </>
-  )
+    <div className="font-body">
+      <Header />
+      <Hero />
+      {/* Additional sections like RankingsPreview, StatsPreview, etc. */}
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
